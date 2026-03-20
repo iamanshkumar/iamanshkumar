@@ -1,4 +1,4 @@
-# Hi, I'm Ansh Kumar 👋
+# Hi, I'm Ansh Kumar
 
 I solve problems with **Node.js** and **React**. 
 
@@ -6,7 +6,7 @@ I am a passionate developer focused on building scalable web applications and ho
 
 ---
 
-### 🚀 Connect with me:
+### Connect with me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anshkumar46)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/iamanshkumar/)
 
@@ -16,8 +16,3 @@ I am a passionate developer focused on building scalable web applications and ho
 * **Frontend:** React, TypeScript , Tailwind
 * **Backend:** Node.js, Express
 * **Databased:** MongoDB , MySQL
-
----
-
-### 📈 GitHub Stats:
-![Ansh's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamanshkumar&show_icons=true&theme=transparent)
