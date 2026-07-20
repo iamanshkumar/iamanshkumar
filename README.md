@@ -20,4 +20,4 @@ I also solve DSA problems consistently — 550+ on LeetCode (Java), Contest Rati
 - **ML/Graph:** PyTorch Geometric, NetworkX, GraphSAGE
 - **Frontend:** React, Tailwind CSS
 - **Databases:** MongoDB, MySQL
-- **Tools:** Git/GitHub, Postman, Docker (if applicable)
+- **Tools:** Git/GitHub, Postman
