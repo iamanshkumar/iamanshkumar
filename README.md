@@ -4,7 +4,7 @@ Backend/Full-Stack Engineer building systems that combine solid engineering with
 
 My focus is on backend architecture that holds up under real constraints: distributed systems, graph algorithms, and ML models that solve actual problems rather than just demoing well. Currently building **MuleNet**, a financial forensics engine that detects fraud patterns in transaction networks using graph theory and GNNs, and **Campus Eye**, a full-stack placement platform used by real students and admins.
 
-I also solve DSA problems consistently — 550+ on LeetCode (Java), Contest Rating 1902, top 4.53% globally.
+I also solve DSA problems consistently — 600+ on LeetCode (Java), Contest Rating 1939, top 4.53% globally.
 
 ---
 
