@@ -1,23 +1,44 @@
-# Hi, I'm Ansh Kumar 👋
+## Ansh Kumar
+**Backend / Full-Stack Engineer** — Python (FastAPI) · MERN · Applied ML
 
-Backend/Full-Stack Engineer building systems that combine solid engineering with applied ML — specializing in **Python (FastAPI)** and the **MERN stack**.
+Building backend systems designed around real constraints — distributed architecture, graph algorithms, and ML models engineered for accuracy at scale rather than demo polish.
 
-My focus is on backend architecture that holds up under real constraints: distributed systems, graph algorithms, and ML models that solve actual problems rather than just demoing well. Currently building **MuleNet**, a financial forensics engine that detects fraud patterns in transaction networks using graph theory and GNNs, and **Campus Eye**, a full-stack placement platform used by real students and admins.
-
-I also solve DSA problems consistently — 600+ on LeetCode (Java), Contest Rating 1939, top 4.53% globally.
-
----
-
-### Connect with me:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/anshkumar46)
-[![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=for-the-badge&logo=leetcode)](http://leetcode.com/iamanshkumar)
+600+ DSA problems solved (Java, LeetCode) · Contest Rating 1939 · Top 4.53% globally
 
 ---
 
-### 🛠 Tech Stack:
-- **Languages:** Java, Python, JavaScript (ES6+), TypeScript, SQL
-- **Backend:** FastAPI, Node.js, Express
-- **ML/Graph:** PyTorch Geometric, NetworkX, GraphSAGE
-- **Frontend:** React, Tailwind CSS
-- **Databases:** MongoDB, MySQL
-- **Tools:** Git/GitHub, Postman
+### Projects
+
+**MuleNet — Financial Forensics Engine**
+Detects fraud patterns in transaction networks using graph theory and GNNs.
+`FastAPI` `React 19` `Express` `MongoDB Atlas`
+- Reduced cyclic-ledger detection time by 80x by pre-partitioning transaction graphs into Strongly Connected Components before running Johnson's algorithm
+- Fused a GNN anomaly-scoring layer with a rule-based detection pipeline into a unified 0–100 suspicion score
+[Repository](#) · [Live](#)
+
+**Campus Eye — Placement Orchestration Platform**
+Full-stack placement platform in active use by students and administrators.
+`MongoDB` `Express` `React` `Node.js`
+- Built atomic voting and cascading-deletion pipelines to eliminate race conditions on concurrent writes
+- Hardened auth and search endpoints against brute-force and ReDoS attacks with rate limiting and regex-escaping
+- Cut frontend data-retrieval latency by 40% via a debounced filtering engine
+[Repository](#) · [Live](#)
+
+---
+
+### Technical Skills
+
+| | |
+|---|---|
+| **Languages** | Java, Python, TypeScript, JavaScript (ES6+), SQL |
+| **Backend** | FastAPI, Node.js, Express |
+| **ML / Graph** | PyTorch Geometric, NetworkX, GraphSAGE |
+| **Frontend** | React, Tailwind CSS |
+| **Databases** | MongoDB, MySQL |
+| **Tools** | Git, Postman |
+
+---
+
+### Contact
+
+[LinkedIn](https://linkedin.com/in/anshkumar46) · [LeetCode](http://leetcode.com/iamanshkumar)
