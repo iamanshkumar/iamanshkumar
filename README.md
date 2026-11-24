@@ -1,44 +1,55 @@
 ## Ansh Kumar
-**Backend / Full-Stack Engineer** — Python (FastAPI) · MERN · Applied ML
-
-Building backend systems designed around real constraints — distributed architecture, graph algorithms, and ML models engineered for accuracy at scale rather than demo polish.
-
-600+ DSA problems solved (Java, LeetCode) · Contest Rating 1939 · Top 4.53% globally
-
+**Backend / Full-Stack Engineer** — Node.js · FastAPI · Next.js · TypeScript
+ 
+I build backend systems around real constraints: role-based access, concurrent writes, graph algorithms and security hardening. Final-year B.Tech CS (Data Science) student, graduating June 2027, looking for SDE / backend roles.
+ 
+Solved 600+ LeetCode problems in Java · Contest rating 1939 · Top 3.62%
+ 
 ---
-
+ 
 ### Projects
-
-**MuleNet — Financial Forensics Engine**
-Detects fraud patterns in transaction networks using graph theory and GNNs.
+ 
+**MuleNet: Financial Forensics Engine**
+Fraud-detection platform that flags money-mule rings in transaction ledgers. Built with a team of 3 at a hackathon.
 `FastAPI` `React 19` `Express` `MongoDB Atlas`
-- Reduced cyclic-ledger detection time by 80x by pre-partitioning transaction graphs into Strongly Connected Components before running Johnson's algorithm
-- Fused a GNN anomaly-scoring layer with a rule-based detection pipeline into a unified 0–100 suspicion score
+- Cut cycle-detection time 80x by splitting the transaction graph into Strongly Connected Components before running Johnson's algorithm
+- Combined five detectors (cycles, Benford's Law, smurfing, centrality, false-positive filtering) and a GraphSAGE anomaly score into one 0–100 suspicion score per account
+- 3-tier architecture: FastAPI scoring service, Express API, React 19 dashboard
 [Repository](#) · [Live](#)
-
-**Campus Eye — Placement Orchestration Platform**
-Full-stack placement platform in active use by students and administrators.
+ 
+**BookMyEvent: Event Booking Platform**
+Full-stack booking platform with separate attendee, organizer and admin dashboards.
+`Next.js` `TypeScript` `Prisma` `MySQL`
+- Enforced role-based access in middleware on every route
+- Booking flow: tiered tickets with seat limits, fixed/percentage coupons with per-user limits, tax calculation, and cancellations that release seats back to inventory
+- Organizer/admin tools: bulk CSV import/export, email verification, and an admin panel for email, CAPTCHA and maintenance mode
+[Repository](#) · Live deployment coming soon
+ 
+**Campus Eye: Placement Tracking Platform**
+Placement platform with role-based access for students and administrators.
 `MongoDB` `Express` `React` `Node.js`
-- Built atomic voting and cascading-deletion pipelines to eliminate race conditions on concurrent writes
-- Hardened auth and search endpoints against brute-force and ReDoS attacks with rate limiting and regex-escaping
-- Cut frontend data-retrieval latency by 40% via a debounced filtering engine
+- Built atomic voting (`$addToSet` / `$pull`) and cascading-deletion pipelines to eliminate race conditions on concurrent writes
+- Secured auth with JWT in httpOnly cookies, TTL-indexed OTPs, and rate limiting against brute force
+- Escaped user input in search filters to block ReDoS attacks
+- Cut frontend data-retrieval latency by 40% with a debounced filtering engine
 [Repository](#) · [Live](#)
-
+ 
 ---
-
+ 
 ### Technical Skills
-
+ 
 | | |
 |---|---|
-| **Languages** | Java, Python, TypeScript, JavaScript (ES6+), SQL |
-| **Backend** | FastAPI, Node.js, Express |
-| **ML / Graph** | PyTorch Geometric, NetworkX, GraphSAGE |
-| **Frontend** | React, Tailwind CSS |
+| **Languages** | Java, TypeScript, JavaScript (ES6+), Python, SQL |
+| **Frameworks / Libraries** | Node.js, Express, Next.js, React, FastAPI, Prisma, Tailwind CSS |
+| **Cloud / DevOps** | Vercel, MongoDB Atlas |
 | **Databases** | MongoDB, MySQL |
-| **Tools** | Git, Postman |
-
+| **Tools** | Git/GitHub, Postman|
+| **Core CS** | DSA, OOP, DBMS |
+ 
 ---
-
+ 
 ### Contact
-
+ 
 [LinkedIn](https://linkedin.com/in/anshkumar46) · [LeetCode](http://leetcode.com/iamanshkumar)
+ 
